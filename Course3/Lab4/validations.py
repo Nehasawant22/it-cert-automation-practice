@@ -28,3 +28,11 @@ print(validate_user("red_quinoa", 4)) # True
 print(validate_user("_red_quinoa", 4)) # Currently True, should be False
  # Usernames can't begin with a number
 print(validate_user("_red_quinoa", 4)) 
+
+print(validate_user("blue.kale", 3)) # True
+print(validate_user(".blue.kale", 3)) # Currently True, should be False
+print(validate_user("red_quinoa", 4)) # True
+print(validate_user("_red_quinoa", 4)) # Currently True, should be False
+
+print(validate_user("_red_quinoa", 4)) # Currently True, should be False
+
